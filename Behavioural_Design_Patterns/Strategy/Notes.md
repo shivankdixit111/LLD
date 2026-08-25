@@ -23,16 +23,16 @@ Defines a family of algorithms, encapsulates each one into a separate class, and
 
 ## 🎯 Why Use It? (SOLID Principles & Benefits)
 
-### Open/Closed Principle (OCP)
+### i - Open/Closed Principle (OCP)
 Introduce new concrete strategies without modifying the existing **Context** or client code.
 
-### Single Responsibility Principle (SRP)
+### ii - Single Responsibility Principle (SRP)
 Separates **orchestration logic** in the Context from the specific behavioral implementations in Concrete Strategies.
 
-### Eliminates Conditionals
+### iii - Eliminates Conditionals
 Removes messy `if-else` or `switch` statements that were previously used to select different behaviors.
 
-### Runtime Flexibility
+### iv - Runtime Flexibility
 Strategy instances can be swapped dynamically at runtime using **setters** or **constructor injection**.
 
 ---

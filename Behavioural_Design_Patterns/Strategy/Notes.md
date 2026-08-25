@@ -21,6 +21,22 @@ Defines a family of algorithms, encapsulates each one into a separate class, and
 
 ---
 
+## 🎯 Why Use It? (SOLID Principles & Benefits)
+
+### Open/Closed Principle (OCP)
+Introduce new concrete strategies without modifying the existing **Context** or client code.
+
+### Single Responsibility Principle (SRP)
+Separates **orchestration logic** in the Context from the specific behavioral implementations in Concrete Strategies.
+
+### Eliminates Conditionals
+Removes messy `if-else` or `switch` statements that were previously used to select different behaviors.
+
+### Runtime Flexibility
+Strategy instances can be swapped dynamically at runtime using **setters** or **constructor injection**.
+
+---
+
 ## 📊 Architecture Diagram
 
 ```mermaid
@@ -49,17 +65,3 @@ classDiagram
     PaymentStrategy <|.. PayPalPaymentStrategy : implements
     PaymentStrategy <|.. StripePaymentStrategy : implements
 
-
-## 🎯 Why Use It? (SOLID Principles & Benefits)
-
-### Open/Closed Principle (OCP)
-Introduce new concrete strategies without modifying the existing **Context** or client code.
-
-### Single Responsibility Principle (SRP)
-Separates **orchestration logic** in the Context from the specific behavioral implementations in Concrete Strategies.
-
-### Eliminates Conditionals
-Removes messy `if-else` or `switch` statements that were previously used to select different behaviors.
-
-### Runtime Flexibility
-Strategy instances can be swapped dynamically at runtime using **setters** or **constructor injection**.

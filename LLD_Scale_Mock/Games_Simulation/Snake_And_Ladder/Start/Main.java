@@ -1,4 +1,4 @@
-package Low_Level_Design.LLD_Scale_Mock.Games_Simulation.Snake_And_Ladder.Bad; 
+package Low_Level_Design.LLD_Scale_Mock.Games_Simulation.Snake_And_Ladder.Start; 
 import java.util.ArrayList; 
 import java.util.HashMap;
 import java.util.Iterator;

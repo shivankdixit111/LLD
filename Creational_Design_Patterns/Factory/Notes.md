@@ -2,8 +2,8 @@
 
 > [!NOTE]
 > **Type:** Creational Pattern  
-> **Core Intent:** Define an interface for creating an object, but let subclasses decide which concrete class to instantiate.
-> **Goal:** The main goal of a Factory is to hide the creation logic of complex objects (and their dependencies) from the (`client (Main)`).
+> **Core Intent:** Define an interface for creating an object, but let subclasses decide which concrete class to instantiate.  <br>
+> **Goal:** The main goal of a Factory is to hide the creation logic of complex objects (and their dependencies) from the `client (Main)`.
 
 ---
 

@@ -206,3 +206,7 @@ High-level orchestrator (`SnakeAndLadderGame`) relies strictly on interfaces (`B
 | "Detect cyclic snake and ladder boards before starting." | Pre-validated in `BoardBuilder.validateNoCycles()` using graph traversal at build time. |
 | "Prevent runtime modification of board entities." | Enforced via `Collections.unmodifiableMap` inside the `Board` constructor. |
 | "Support rolling a 6 grants an extra turn." | Update `SnakeAndLadderGame.play()` turn logic to check `rollValue == 6`, using `LinkedList.addFirst()` on `playerQueue` to reissue turn. |
+
+
+
+
